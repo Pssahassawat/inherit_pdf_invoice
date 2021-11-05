@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+        <record id="tutor_course_view_tree" model="ir.ui.view">
+                <field name="name">tutor.course.view.tree</field>
+                <field name="model">tutor.course</field>
+                <field name="arch" type="xml">
+                        <tree>
+                                <field name="name"/>
+                                <field name="user_id"/>
+                                <field name="partner_id"/>
+                                <field name="cost"/>
+                                <field name="grade"/>
+                                <field name="description"/>
+                        </tree>
+                </field>
+        </record>
+
+        <record id="tutor_course_action" model="ir.actions.act_window">
+                <field name="name">Tutor Course</field>
+                <field name="res_model">tutor.course</field>
+                <field name="view_mode">tree,form</field>
+        </record>
+</odoo>
