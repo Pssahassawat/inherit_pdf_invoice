@@ -3,25 +3,26 @@
     'name': "inherit pdf",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        """,
 
     'description': """
-        Long description of module's purpose
+        Easy to get a copied of invoice, Just only one click
+        ====================================================
     """,
 
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'author': "Sahassawat Posungnern",
+    'website': "",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/14.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
-    'category': 'Uncategorized',
+    'category': 'Tools',
     'version': '0.1',
-
+    'license': 'AGPL-3',
     # any module necessary for this one to work correctly
     'depends': ['base', 'account', ],
 
+    'images':['static/description/thumbnail.png'],
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
