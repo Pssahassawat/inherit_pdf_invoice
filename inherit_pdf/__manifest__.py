@@ -22,7 +22,7 @@
     # any module necessary for this one to work correctly
     'depends': ['base', 'account', ],
 
-    'images':['static/description/thumbnail.png'],
+    'images': ['static/description/thumbnail.png'],
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
